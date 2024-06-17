@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name":"Alp Arslan",
+    "number":"2"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "notName":"Alp Arslan",
+    "Notnumber":"22"
+}
+
+###
+GET http://localhost:3001/api/persons
